@@ -574,6 +574,8 @@ def get_markets():
             'base': 'ETH',
             'quote': 'BTC',
             'active': True,
+            'spot': True,
+            'type': 'spot',
             'precision': {
                 'price': 8,
                 'amount': 8,
@@ -603,6 +605,8 @@ def get_markets():
             'quote': 'BTC',
             # According to ccxt, markets without active item set are also active
             # 'active': True,
+            'spot': True,
+            'type': 'spot',
             'precision': {
                 'price': 8,
                 'amount': 8,
@@ -631,6 +635,8 @@ def get_markets():
             'base': 'BLK',
             'quote': 'BTC',
             'active': True,
+            'spot': True,
+            'type': 'spot',
             'precision': {
                 'price': 8,
                 'amount': 8,
@@ -659,6 +665,8 @@ def get_markets():
             'base': 'LTC',
             'quote': 'BTC',
             'active': True,
+            'spot': True,
+            'type': 'spot',
             'precision': {
                 'price': 8,
                 'amount': 8,
@@ -684,6 +692,8 @@ def get_markets():
             'base': 'XRP',
             'quote': 'BTC',
             'active': True,
+            'spot': True,
+            'type': 'spot',
             'precision': {
                 'price': 8,
                 'amount': 8,
@@ -709,6 +719,8 @@ def get_markets():
             'base': 'NEO',
             'quote': 'BTC',
             'active': True,
+            'spot': True,
+            'type': 'spot',
             'precision': {
                 'price': 8,
                 'amount': 8,
@@ -734,6 +746,8 @@ def get_markets():
             'base': 'BTT',
             'quote': 'BTC',
             'active': False,
+            'spot': True,
+            'type': 'spot',
             'precision': {
                 'base': 8,
                 'quote': 8,
@@ -761,6 +775,8 @@ def get_markets():
             'symbol': 'ETH/USDT',
             'base': 'ETH',
             'quote': 'USDT',
+            'spot': True,
+            'type': 'spot',
             'precision': {
                 'amount': 8,
                 'price': 8
@@ -784,6 +800,8 @@ def get_markets():
             'base': 'LTC',
             'quote': 'USDT',
             'active': False,
+            'spot': True,
+            'type': 'spot',
             'precision': {
                 'amount': 8,
                 'price': 8
@@ -806,6 +824,8 @@ def get_markets():
             'base': 'XRP',
             'quote': 'USDT',
             'active': True,
+            'spot': True,
+            'type': 'spot',
             'precision': {
                 'price': 8,
                 'amount': 8,
@@ -831,6 +851,8 @@ def get_markets():
             'base': 'NEO',
             'quote': 'USDT',
             'active': True,
+            'spot': True,
+            'type': 'spot',
             'precision': {
                 'price': 8,
                 'amount': 8,
@@ -856,6 +878,8 @@ def get_markets():
             'base': 'TKN',
             'quote': 'USDT',
             'active': True,
+            'spot': True,
+            'type': 'spot',
             'precision': {
                 'price': 8,
                 'amount': 8,
@@ -881,6 +905,8 @@ def get_markets():
             'base': 'LTC',
             'quote': 'USD',
             'active': True,
+            'spot': True,
+            'type': 'spot',
             'precision': {
                 'amount': 8,
                 'price': 8
@@ -903,6 +929,8 @@ def get_markets():
             'base': 'LTC',
             'quote': 'USDT',
             'active': True,
+            'spot': False,
+            'type': 'SomethingElse',
             'precision': {
                 'amount': 8,
                 'price': 8
@@ -925,6 +953,8 @@ def get_markets():
             'base': 'LTC',
             'quote': 'ETH',
             'active': True,
+            'spot': True,
+            'type': 'spot',
             'precision': {
                 'base': 8,
                 'quote': 8,
@@ -975,6 +1005,8 @@ def shitcoinmarkets(markets_static):
             'base': 'HOT',
             'quote': 'BTC',
             'active': True,
+            'spot': True,
+            'type': 'spot',
             'precision': {
                 'base': 8,
                 'quote': 8,
@@ -1003,6 +1035,8 @@ def shitcoinmarkets(markets_static):
             'base': 'FUEL',
             'quote': 'BTC',
             'active': True,
+            'spot': True,
+            'type': 'spot',
             'precision': {
                 'base': 8,
                 'quote': 8,
